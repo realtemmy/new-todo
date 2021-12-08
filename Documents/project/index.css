@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+}
+.wrapper{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: blue;
+}
+.divclass{
+    background-color: #f4f4f4;
+    display:block;
+    padding: 10px;
+    margin: 2px;
+}
+.divclass:nth-child(odd){
+    background-color: azure;
+}
