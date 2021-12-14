@@ -1,6 +1,7 @@
 const form = document.querySelector('.form')
 const submitBtn = document.querySelector('.submitBtn');
 const inputTodo = document.querySelector('.inputTodo');
+const allTodos = [] ;
 const todo = inputTodo.value;
 
 // //adding event listener to form
@@ -14,6 +15,9 @@ function addItem(e){
         alert("We need info!!..")
         return ;
     }
-    console.log(todo);
+    allTodos.push(todo)
+    console.log(allTodos);
+    console.log(todo)
+    inputTodo.value = '' ;
 };
 
