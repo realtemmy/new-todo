@@ -10,17 +10,16 @@
 <body>
     <nav>
         <div>Todo-app</div>
-        <input type="text" placeholder="Search..." id="filter">
     </nav>
     <main>
         <div class="wrapper" id="wrapper">
             <div>Make plans</div>
-            <form id="form">
-                <input type="text" placeholder="Add plan description" id="addText">
-                <input type="submit">
+            <form class="form">
+                <input type="text" placeholder="Add plan description" id="addText" class="inputTodo">
+                <input type="submit" class="submitBtn">
             </form>
-            <div id="main">
-                <div id="output"></div>
+            <div id="allTodo">
+                <div id="each-todo"></div>
             </div>
         </div>
     </main>

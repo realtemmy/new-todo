@@ -1,11 +1,11 @@
-const form = document.getElementById('form');
-const main = document.getElementById('main');
-const output = document.getElementById('output');
+const form = document.querySelector('.form')
+const submitBtn = document.querySelector('.submitBtn');
+const inputTodo = document.querySelector('.inputTodo');
 
 
 
 // //adding event listener to form
- form.addEventListener('submit', addItem);
+submitBtn.addEventListener('submit', addItem);
 
 
 // Adding of todos Item
